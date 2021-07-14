@@ -52,8 +52,7 @@
             </td>
             <td>
                 <div id="container">
-                    <iframe id="cdcd"
-                        src="https://downthecrop.github.io/scratch-gui/player.html?header=True&logo=True#552134134"
+                    <iframe src="https://downthecrop.github.io/scratch-gui/player.html?header=True&logo=True#552134134"
                         allowtransparency="true" width="482px" height="410px" frameborder="0" scrolling="no"
                         allowfullscreen="false"></iframe>
                 </div>
@@ -95,7 +94,7 @@
         byId("container").innerHTML = "<div style='text-align:center;width:482px;height:410px;background-color:black;color:white;'><h1>Click to update</h1></div>"
         let url = buildLink()
         byId("container").addEventListener("click", function (e) {
-            byId("container").innerHTML = '<iframe id="cdcd" src="' + url + '" allowtransparency="true" width="482px" height="410px" frameborder="0" scrolling="no" allowfullscreen="false"></iframe>'
+            byId("container").innerHTML = '<iframe src="' + url + '" allowtransparency="true" width="482px" height="410px" frameborder="0" scrolling="no" allowfullscreen="false"></iframe>'
         })
         byId("embed-code").innerText = '<iframe src="' + url + '" allowtransparency="true" width="482px" height="410px" frameborder="0" scrolling="no" allowfullscreen="false"></iframe>'
     }
